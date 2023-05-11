@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fee2e2;
+}
+.calculator{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.btn{
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number{
+    border: 1px solid #f59e0b;
+    border-radius: 10px;
+}
+.number:hover{
+    background-color: #4ade80;
+    border: 1px solid black;
+}
+
+.operator{
+    border: 1px solid #2563eb;
+    border-radius: 10px;
+}
+.operator:hover{
+    background-color: #c4b5fd;
+    border: 1px solid black;
+}
+
+.decimal{
+    border: 1px solid #dc2626;
+    border-radius: 10px;
+}
+.decimal:hover{
+    background-color: #93c5fd;
+    border: 1px solid black;
+}
+
+.equal{
+    border: 1px solid #65a30d;
+    border-radius: 10px;
+}
+.equal:hover{
+    background-color: #10b981;
+    border: 1px solid black;
+}
+
+.clear{
+    border: 1px solid #f43f5e;
+    border-radius: 10px;
+}
+.clear:hover{
+    background-color: #f43f5e;
+    border: 1px solid black;
+}
+.first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.displayScreen{
+    width: 300px;
+    border: 1px solid peru;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.previous{
+    font-size: 20px;
+    
+}
+.current{
+    font-size: 30px;
+}
